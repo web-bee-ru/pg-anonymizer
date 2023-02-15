@@ -1,5 +1,5 @@
 {
-  "name": "pg-anonymizer",
+  "name": "@web-bee-ru/pg-anonymizer",
   "description": "Export your postgreSQL database anonymized",
   "version": "1.0.0",
   "author": "Raphaël Huchet @rap2hpoutre",
@@ -8,11 +8,11 @@
   },
   "bugs": "https://github.com/rap2hpoutre/pg-anonymizer/issues",
   "dependencies": {
+    "@faker-js/faker": "^7.6.0",
     "@oclif/command": "^1.8.16",
     "@oclif/config": "^1.18.2",
     "@oclif/plugin-help": "^5.1.10",
     "@types/faker": "^5.5.9",
-    "faker": "^5.2.0",
     "tslib": "^2.3.1"
   },
   "devDependencies": {
@@ -34,7 +34,7 @@
     "/bin",
     "/lib"
   ],
-  "homepage": "https://github.com/rap2hpoutre/pg-anonymizer",
+  "homepage": "https://github.com/web-bee-ru/pg-anonymizer",
   "keywords": [
     "oclif"
   ],
@@ -43,7 +43,7 @@
   "oclif": {
     "bin": "pg-anonymizer"
   },
-  "repository": "rap2hpoutre/pg-anonymizer",
+  "repository": "web-bee-ru/pg-anonymizer",
   "scripts": {
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rm -rf lib && tsc -b && oclif-dev readme",

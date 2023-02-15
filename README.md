@@ -91,7 +91,7 @@ module.exports = {
 
 ### Locale (i18n)
 
-Use `-l` to change the locale used by faker (default: `en`)
+Use `--fakerLocale` to change the locale used by faker (default: `en`)
 
 ### Import the anonymized file
 
